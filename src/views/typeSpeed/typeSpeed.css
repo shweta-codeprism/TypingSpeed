@@ -1,0 +1,19 @@
+.TypeSpeedSetup {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 10px;
+}
+
+.PropsSetup {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100px;
+  justify-content: flex-start;
+  align-items: center;
+}

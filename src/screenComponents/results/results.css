@@ -1,0 +1,52 @@
+.Results {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  width: 602px;
+  height: 60px;
+  border: 1px #96a4c3 solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.EachResult {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 200px;
+  height: 58px;
+  justify-content: center;
+  align-items: center;
+  color: #224867
+}
+
+span.header {
+  font-size: 10px;
+  color: #224867;
+}
+
+span.contentWPM {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #224867;
+}
+
+span.contentMismatch {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #cc4343;
+}
+
+span.contentEffective {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #53b000;
+}
+
+.ResultDiv {
+  border-left: 1px solid #224867;
+  height: 40px;
+}

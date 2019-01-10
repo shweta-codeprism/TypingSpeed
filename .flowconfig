@@ -1,0 +1,23 @@
+[ignore]
+.*/node_modules/enzyme-matchers/*
+.*/node_modules/fbemitter/node_modules/*
+.*/node_modules/fbjs/*
+.*/node_modules/flux/*
+.*/node_modules/jasmine-enzyme/*
+.*/node_modules/react-event-listener/*
+.*/node_modules/react-motion/*
+
+[libs]
+<PROJECT_ROOT>/flow-typed/
+
+
+[options]
+module.name_mapper='^components\(.*\)$' -> '<PROJECT_ROOT>/src/app/components/\1'
+module.name_mapper='^screenComponents\(.*\)$' -> '<PROJECT_ROOT>/src/app/screenComponents/\1'
+module.name_mapper='^assets\(.*\)$' -> '<PROJECT_ROOT>/src/assets/\1'
+module.name_mapper='^actions\(.*\)$' -> '<PROJECT_ROOT>/src/redux/actions/\1'
+module.name_mapper='^reduxReducers\(.*\)$' -> '<PROJECT_ROOT>/src/reduxReducers/\1'
+module.name_mapper='^routeComponents\(.*\)$' -> '<PROJECT_ROOT>/src/routeComponents/\1'
+module.name_mapper='^views\(.*\)$' -> '<PROJECT_ROOT>/src/app/views/\1'
+module.name_mapper='^store' -> '<PROJECT_ROOT>/src/store'
+module.name_mapper='^appRoutes' -> '<PROJECT_ROOT>/src/appRoutes'

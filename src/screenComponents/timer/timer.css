@@ -1,0 +1,25 @@
+.Timer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  border: 2px #96a4c3 solid;
+  background-color: #f2f9ff;
+  justify-content: center;
+  align-items: center;
+}
+
+span.propsheader {
+  font-size: 12px;
+  color: #224867;
+  font-weight: bold;
+}
+
+.PropBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
